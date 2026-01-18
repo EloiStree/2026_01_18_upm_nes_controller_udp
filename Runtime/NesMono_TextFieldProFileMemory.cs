@@ -1,3 +1,4 @@
+using System;
 using TMPro;
 using UnityEditor;
 using UnityEngine;
@@ -19,7 +20,7 @@ public class NesMono_TextFieldProFileMemory : MonoBehaviour
     public void Reset()
     {
         m_inputField = GetComponent<TMP_InputField>();
-        m_saveUniqueId= GUID.Generate().ToString();
+        m_saveUniqueId= Guid.NewGuid().ToString();
     }
 
     public void OnEnable()
