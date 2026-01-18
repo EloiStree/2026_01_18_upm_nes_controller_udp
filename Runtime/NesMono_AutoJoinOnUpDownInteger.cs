@@ -1,39 +1,42 @@
 using UnityEngine;
 using UnityEngine.Events;
-
-public class NesMono_AutoJoinOnUpDownInteger : MonoBehaviour
+namespace Eloi.NesUtility
 {
-    public UnityEvent<int> m_onIntegerRequested;
-    public GameObject[] m_parentsToOverwatch;
 
-    public void OnEnable()
+    public class NesMono_AutoJoinOnUpDownInteger : MonoBehaviour
     {
-        foreach (var parent in m_parentsToOverwatch)
+        public UnityEvent<int> m_onIntegerRequested;
+        public GameObject[] m_parentsToOverwatch;
+
+        public void OnEnable()
         {
-            NesMono_OnUpDownToInteger[] upDownToIntegerComponents = 
-                parent.GetComponentsInChildren<NesMono_OnUpDownToInteger>();
-            foreach (var component in upDownToIntegerComponents)
+            foreach (var parent in m_parentsToOverwatch)
             {
-                component.AddIntegerRequestListen(PushIntegerRequest);
+                NesMono_OnUpDownToInteger[] upDownToIntegerComponents =
+                    parent.GetComponentsInChildren<NesMono_OnUpDownToInteger>();
+                foreach (var component in upDownToIntegerComponents)
+                {
+                    component.AddIntegerRequestListen(PushIntegerRequest);
+                }
             }
         }
-    }
-    public void OnDisable()
-    {
-
-        foreach (var parent in m_parentsToOverwatch)
+        public void OnDisable()
         {
-            NesMono_OnUpDownToInteger[] upDownToIntegerComponents =
-                parent.GetComponentsInChildren<NesMono_OnUpDownToInteger>();
-            foreach (var component in upDownToIntegerComponents)
+
+            foreach (var parent in m_parentsToOverwatch)
             {
-                component.RemoveIntegerRequestListen(PushIntegerRequest);
+                NesMono_OnUpDownToInteger[] upDownToIntegerComponents =
+                    parent.GetComponentsInChildren<NesMono_OnUpDownToInteger>();
+                foreach (var component in upDownToIntegerComponents)
+                {
+                    component.RemoveIntegerRequestListen(PushIntegerRequest);
+                }
             }
         }
-    }
-    public void PushIntegerRequest(int value)
-    {
-        m_onIntegerRequested?.Invoke(value);
-    }
+        public void PushIntegerRequest(int value)
+        {
+            m_onIntegerRequested?.Invoke(value);
+        }
 
+    }
 }

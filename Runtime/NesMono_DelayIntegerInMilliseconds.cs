@@ -1,8 +1,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
+namespace Eloi.NesUtility
+{
 
-public class NesMono_DelayIntegerInMilliseconds : MonoBehaviour
+    public class NesMono_DelayIntegerInMilliseconds : MonoBehaviour
     {
 
         public UnityEvent<int> m_onActionIntegerRequested;
@@ -57,3 +59,4 @@ public class NesMono_DelayIntegerInMilliseconds : MonoBehaviour
     }
 
 
+}

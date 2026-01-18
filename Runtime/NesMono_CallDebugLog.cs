@@ -1,18 +1,21 @@
 using UnityEngine;
-
-public class NesMono_CallDebugLog : MonoBehaviour
+namespace Eloi.NesUtility
 {
-    
-    public void CallDebugLog(string message)
+
+    public class NesMono_CallDebugLog : MonoBehaviour
     {
-        Debug.Log(message);
-    }
-    public void CallDebugLogWarning(string message)
-    {
-        Debug.LogWarning(message);
-    }
-    public void CallDebugLogError(string message)
-    {
-        Debug.LogError(message);
+
+        public void CallDebugLog(string message)
+        {
+            Debug.Log(message);
+        }
+        public void CallDebugLogWarning(string message)
+        {
+            Debug.LogWarning(message);
+        }
+        public void CallDebugLogError(string message)
+        {
+            Debug.LogError(message);
+        }
     }
 }

@@ -119,6 +119,20 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!114 &127996393
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc1515ab76e54f068e2f2207940fab32, type: 3}
+  m_Name: NesButtonsDefault/ArrowDown
+  m_EditorClassIdentifier: Unity.InputSystem::UnityEngine.InputSystem.InputActionReference
+  m_Asset: {fileID: -944628639613478452, guid: 0ef5e4d17407e0e4a82bfc87b58f31e9, type: 3}
+  m_ActionId: 745092eb-3e38-43c6-8fda-1eba2439115e
 --- !u!1 &257334803
 GameObject:
   m_ObjectHideFlags: 0
@@ -383,6 +397,20 @@ MonoBehaviour:
   m_ShadowLayerMask: 1
   m_RenderingLayers: 1
   m_ShadowRenderingLayers: 1
+--- !u!114 &481321829
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc1515ab76e54f068e2f2207940fab32, type: 3}
+  m_Name: NesButtonsDefault/ArrowRight
+  m_EditorClassIdentifier: Unity.InputSystem::UnityEngine.InputSystem.InputActionReference
+  m_Asset: {fileID: -944628639613478452, guid: 0ef5e4d17407e0e4a82bfc87b58f31e9, type: 3}
+  m_ActionId: bf6394ef-7595-4334-bd4e-beb156764d57
 --- !u!1 &659826385
 GameObject:
   m_ObjectHideFlags: 0
@@ -564,6 +592,90 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1428908794
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc1515ab76e54f068e2f2207940fab32, type: 3}
+  m_Name: NesButtonsDefault/ArrowUp
+  m_EditorClassIdentifier: Unity.InputSystem::UnityEngine.InputSystem.InputActionReference
+  m_Asset: {fileID: -944628639613478452, guid: 0ef5e4d17407e0e4a82bfc87b58f31e9, type: 3}
+  m_ActionId: 0ef64609-dadf-4b07-afbe-a86992eaba9b
+--- !u!114 &1697462301
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc1515ab76e54f068e2f2207940fab32, type: 3}
+  m_Name: NesButtonsDefault/ButtonB
+  m_EditorClassIdentifier: Unity.InputSystem::UnityEngine.InputSystem.InputActionReference
+  m_Asset: {fileID: -944628639613478452, guid: 0ef5e4d17407e0e4a82bfc87b58f31e9, type: 3}
+  m_ActionId: 43c55010-f457-4dfc-b5bd-241f38ad56ca
+--- !u!114 &1788429637
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc1515ab76e54f068e2f2207940fab32, type: 3}
+  m_Name: NesButtonsDefault/ArrowLeft
+  m_EditorClassIdentifier: Unity.InputSystem::UnityEngine.InputSystem.InputActionReference
+  m_Asset: {fileID: -944628639613478452, guid: 0ef5e4d17407e0e4a82bfc87b58f31e9, type: 3}
+  m_ActionId: 6d2154b4-ea89-482a-a979-7ee884e36772
+--- !u!114 &1801450232
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc1515ab76e54f068e2f2207940fab32, type: 3}
+  m_Name: NesButtonsDefault/ButtonA
+  m_EditorClassIdentifier: Unity.InputSystem::UnityEngine.InputSystem.InputActionReference
+  m_Asset: {fileID: -944628639613478452, guid: 0ef5e4d17407e0e4a82bfc87b58f31e9, type: 3}
+  m_ActionId: b6fefa36-ce59-4c20-86e9-fb345158dcd7
+--- !u!114 &1975041655
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc1515ab76e54f068e2f2207940fab32, type: 3}
+  m_Name: NesButtonsDefault/MenuRight
+  m_EditorClassIdentifier: Unity.InputSystem::UnityEngine.InputSystem.InputActionReference
+  m_Asset: {fileID: -944628639613478452, guid: 0ef5e4d17407e0e4a82bfc87b58f31e9, type: 3}
+  m_ActionId: f686a21e-cae3-4917-b11c-cce20a21e862
+--- !u!114 &2048509808
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc1515ab76e54f068e2f2207940fab32, type: 3}
+  m_Name: NesButtonsDefault/MenuLeft
+  m_EditorClassIdentifier: Unity.InputSystem::UnityEngine.InputSystem.InputActionReference
+  m_Asset: {fileID: -944628639613478452, guid: 0ef5e4d17407e0e4a82bfc87b58f31e9, type: 3}
+  m_ActionId: 31a980ac-ac86-4813-9731-ff92c9d3b4f1
 --- !u!1001 &442852661018444741
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -572,10 +684,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 659826389}
     m_Modifications:
-    - target: {fileID: 690493333042737682, guid: 86043c7da09a448479483553b5e69302, type: 3}
-      propertyPath: m_Name
-      value: 'Example '
-      objectReference: {fileID: 0}
+    - target: {fileID: 14084534593176758, guid: 86043c7da09a448479483553b5e69302, type: 3}
+      propertyPath: m_inputAction
+      value: 
+      objectReference: {fileID: 1697462301}
+    - target: {fileID: 1011707038063537294, guid: 86043c7da09a448479483553b5e69302, type: 3}
+      propertyPath: m_inputAction
+      value: 
+      objectReference: {fileID: 1975041655}
+    - target: {fileID: 1047025125821051711, guid: 86043c7da09a448479483553b5e69302, type: 3}
+      propertyPath: m_inputAction
+      value: 
+      objectReference: {fileID: 481321829}
+    - target: {fileID: 2083876685912758763, guid: 86043c7da09a448479483553b5e69302, type: 3}
+      propertyPath: m_inputAction
+      value: 
+      objectReference: {fileID: 1428908794}
     - target: {fileID: 2360344643944224412, guid: 86043c7da09a448479483553b5e69302, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -600,6 +724,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3820260754964704461, guid: 86043c7da09a448479483553b5e69302, type: 3}
+      propertyPath: m_inputAction
+      value: 
+      objectReference: {fileID: 2048509808}
     - target: {fileID: 4084922558317959730, guid: 86043c7da09a448479483553b5e69302, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -708,6 +836,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7102700911050698649, guid: 86043c7da09a448479483553b5e69302, type: 3}
+      propertyPath: m_inputAction
+      value: 
+      objectReference: {fileID: 1788429637}
+    - target: {fileID: 7444603623281182438, guid: 86043c7da09a448479483553b5e69302, type: 3}
+      propertyPath: m_inputAction
+      value: 
+      objectReference: {fileID: 127996393}
     - target: {fileID: 8008398847938990717, guid: 86043c7da09a448479483553b5e69302, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -732,6 +868,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8011103779632408339, guid: 86043c7da09a448479483553b5e69302, type: 3}
+      propertyPath: m_inputAction
+      value: 
+      objectReference: {fileID: 1801450232}
     - target: {fileID: 8857159524708380311, guid: 86043c7da09a448479483553b5e69302, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0

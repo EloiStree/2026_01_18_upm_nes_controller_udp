@@ -1,9 +1,9 @@
 using UnityEngine;
 
+namespace Eloi.NesUtility { 
 public class NesMono_ExampleClickAllButtons : MonoBehaviour
 {
     public NesMono_NesWithCode m_nes;
-
 
     [ContextMenu("Click On All Buttons")]
     public void ClickOnAllButtons()
@@ -59,9 +59,6 @@ public class NesMono_ExampleClickAllButtons : MonoBehaviour
 
 
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+}
+
 }

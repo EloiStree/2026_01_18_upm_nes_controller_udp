@@ -344,6 +344,172 @@ MonoBehaviour:
   m_saveType: 1
   m_saveUniqueId: d8a98ff08752a7b498905c8a9d75e199
   m_defaultIfNotSet: 127.0.0.1
+--- !u!1 &542327200806058181
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 19897505381417601}
+  - component: {fileID: 5639709257456687405}
+  - component: {fileID: 6540923994825768804}
+  - component: {fileID: 4408789988206212740}
+  m_Layer: 5
+  m_Name: Text Sent
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &19897505381417601
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 542327200806058181}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8857159524708380311}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.6586605, y: 0.4688507}
+  m_AnchorMax: {x: 0.8761567, y: 0.6112207}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &5639709257456687405
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 542327200806058181}
+  m_CullTransparentMesh: 1
+--- !u!114 &6540923994825768804
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 542327200806058181}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: 1000
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4278190335
+  m_fontColor: {r: 1, g: 0, b: 0, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 10.55
+  m_fontSizeBase: 8
+  m_fontWeight: 400
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 8
+  m_fontSizeMax: 150
+  m_fontStyle: 0
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_characterHorizontalScale: 1
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_TextWrappingMode: 3
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 0
+  m_ActiveFontFeatures: 6e72656b
+  m_enableExtraPadding: 1
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_EmojiFallbackSupport: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!114 &4408789988206212740
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 542327200806058181}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba9facf9438398b4ca063e41d0ee7d62, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: be.elab.nescontrollerudp.Runtime::Eloi.NesUtility.NesMono_ParseNumberToText
+  m_onTextUpdated:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 6540923994825768804}
+        m_TargetAssemblyTypeName: TMPro.TextMeshProUGUI, Unity.TextMeshPro
+        m_MethodName: set_text
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  format: '{0}'
 --- !u!1 &690493333042737682
 GameObject:
   m_ObjectHideFlags: 0
@@ -355,7 +521,7 @@ GameObject:
   - component: {fileID: 8359163039143913882}
   - component: {fileID: 8001486356347198371}
   m_Layer: 0
-  m_Name: Example With Code
+  m_Name: 'Example '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -389,6 +555,45 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: be.elab.nescontrollerudp.Runtime::NesMono_ExampleClickAllButtons
   m_nes: {fileID: 8473142847946946761}
+--- !u!1 &1347320944330713818
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1481272287939050696}
+  m_Layer: 0
+  m_Name: Exampel Input
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1481272287939050696
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1347320944330713818}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5683158672037040917}
+  - {fileID: 3801032763135434352}
+  - {fileID: 7477024832913652848}
+  - {fileID: 2853045919996010783}
+  - {fileID: 7184203500073066345}
+  - {fileID: 7755226931331749456}
+  - {fileID: 2656028145065256233}
+  - {fileID: 555807194278136916}
+  m_Father: {fileID: 8005578434377899487}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1897286455900080901
 GameObject:
   m_ObjectHideFlags: 0
@@ -568,6 +773,140 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!1 &2053054802322329470
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2656028145065256233}
+  - component: {fileID: 7444603623281182438}
+  m_Layer: 0
+  m_Name: Key Down
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2656028145065256233
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2053054802322329470}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1481272287939050696}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7444603623281182438
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2053054802322329470}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aaa1543a357928f4a9b5c26de87ed815, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: be.elab.nescontrollerudp.Runtime::Eloi.NesUtility.NesMono_InputButton
+  m_inputAction: {fileID: 0}
+  m_onChanged:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 8473142847946946761}
+        m_TargetAssemblyTypeName: Eloi.NesUtility.NesMono_NesWithCode, be.elab.nescontrollerudp.Runtime
+        m_MethodName: PressOrReleaseArrowDown
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  m_onDown:
+    m_PersistentCalls:
+      m_Calls: []
+  m_onUp:
+    m_PersistentCalls:
+      m_Calls: []
+  m_isPressed: 0
+--- !u!1 &2235727306873728071
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 555807194278136916}
+  - component: {fileID: 7102700911050698649}
+  m_Layer: 0
+  m_Name: Key Left
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &555807194278136916
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2235727306873728071}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1481272287939050696}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7102700911050698649
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2235727306873728071}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aaa1543a357928f4a9b5c26de87ed815, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: be.elab.nescontrollerudp.Runtime::Eloi.NesUtility.NesMono_InputButton
+  m_inputAction: {fileID: 0}
+  m_onChanged:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 8473142847946946761}
+        m_TargetAssemblyTypeName: Eloi.NesUtility.NesMono_NesWithCode, be.elab.nescontrollerudp.Runtime
+        m_MethodName: PressOrReleaseArrowLeft
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  m_onDown:
+    m_PersistentCalls:
+      m_Calls: []
+  m_onUp:
+    m_PersistentCalls:
+      m_Calls: []
+  m_isPressed: 0
 --- !u!1 &3134950376479638198
 GameObject:
   m_ObjectHideFlags: 0
@@ -1820,6 +2159,207 @@ MonoBehaviour:
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
   m_LayoutPriority: 1
+--- !u!1 &6279216719191877217
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5683158672037040917}
+  - component: {fileID: 8011103779632408339}
+  m_Layer: 0
+  m_Name: Key A
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5683158672037040917
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6279216719191877217}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1481272287939050696}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8011103779632408339
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6279216719191877217}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aaa1543a357928f4a9b5c26de87ed815, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: be.elab.nescontrollerudp.Runtime::Eloi.NesUtility.NesMono_InputButton
+  m_inputAction: {fileID: 0}
+  m_onChanged:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 8473142847946946761}
+        m_TargetAssemblyTypeName: Eloi.NesUtility.NesMono_NesWithCode, be.elab.nescontrollerudp.Runtime
+        m_MethodName: PressOrReleaseButtonA
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  m_onDown:
+    m_PersistentCalls:
+      m_Calls: []
+  m_onUp:
+    m_PersistentCalls:
+      m_Calls: []
+  m_isPressed: 0
+--- !u!1 &6956496510141700142
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3801032763135434352}
+  - component: {fileID: 14084534593176758}
+  m_Layer: 0
+  m_Name: Key B
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3801032763135434352
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6956496510141700142}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1481272287939050696}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &14084534593176758
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6956496510141700142}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aaa1543a357928f4a9b5c26de87ed815, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: be.elab.nescontrollerudp.Runtime::Eloi.NesUtility.NesMono_InputButton
+  m_inputAction: {fileID: 0}
+  m_onChanged:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 8473142847946946761}
+        m_TargetAssemblyTypeName: Eloi.NesUtility.NesMono_NesWithCode, be.elab.nescontrollerudp.Runtime
+        m_MethodName: PressOrReleaseButtonB
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  m_onDown:
+    m_PersistentCalls:
+      m_Calls: []
+  m_onUp:
+    m_PersistentCalls:
+      m_Calls: []
+  m_isPressed: 0
+--- !u!1 &7719156415454686081
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7755226931331749456}
+  - component: {fileID: 1047025125821051711}
+  m_Layer: 0
+  m_Name: Key Right
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7755226931331749456
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7719156415454686081}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1481272287939050696}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1047025125821051711
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7719156415454686081}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aaa1543a357928f4a9b5c26de87ed815, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: be.elab.nescontrollerudp.Runtime::Eloi.NesUtility.NesMono_InputButton
+  m_inputAction: {fileID: 0}
+  m_onChanged:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 8473142847946946761}
+        m_TargetAssemblyTypeName: Eloi.NesUtility.NesMono_NesWithCode, be.elab.nescontrollerudp.Runtime
+        m_MethodName: PressOrReleaseArrowRight
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  m_onDown:
+    m_PersistentCalls:
+      m_Calls: []
+  m_onUp:
+    m_PersistentCalls:
+      m_Calls: []
+  m_isPressed: 0
 --- !u!1 &7808590211955965553
 GameObject:
   m_ObjectHideFlags: 0
@@ -1859,6 +2399,7 @@ RectTransform:
   - {fileID: 3462592369607929395}
   - {fileID: 8058067393551197285}
   - {fileID: 3963594874728251707}
+  - {fileID: 19897505381417601}
   - {fileID: 7557785694898022651}
   m_Father: {fileID: 6924106206365610820}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1969,6 +2510,24 @@ MonoBehaviour:
   m_playerDefaultIndex: 0
   m_sendToDebug: 
   m_lastException: 
+  m_onIntegerValueSent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 4408789988206212740}
+        m_TargetAssemblyTypeName: Eloi.NesUtility.NesMono_ParseNumberToText, be.elab.nescontrollerudp.Runtime
+        m_MethodName: PushIn
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  m_onIndexValueIntegerSent:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &8229063532669483601
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2205,6 +2764,140 @@ MonoBehaviour:
   m_saveType: 1
   m_saveUniqueId: 8ea607202111c2247baaab31480f360a
   m_defaultIfNotSet: 0
+--- !u!1 &8605426357937850480
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7184203500073066345}
+  - component: {fileID: 2083876685912758763}
+  m_Layer: 0
+  m_Name: Key Up
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7184203500073066345
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8605426357937850480}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1481272287939050696}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2083876685912758763
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8605426357937850480}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aaa1543a357928f4a9b5c26de87ed815, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: be.elab.nescontrollerudp.Runtime::Eloi.NesUtility.NesMono_InputButton
+  m_inputAction: {fileID: 0}
+  m_onChanged:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 8473142847946946761}
+        m_TargetAssemblyTypeName: Eloi.NesUtility.NesMono_NesWithCode, be.elab.nescontrollerudp.Runtime
+        m_MethodName: PressOrReleaseArrowUp
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  m_onDown:
+    m_PersistentCalls:
+      m_Calls: []
+  m_onUp:
+    m_PersistentCalls:
+      m_Calls: []
+  m_isPressed: 0
+--- !u!1 &8927004100795322846
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2853045919996010783}
+  - component: {fileID: 1011707038063537294}
+  m_Layer: 0
+  m_Name: Key Menu Right
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2853045919996010783
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8927004100795322846}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1481272287939050696}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1011707038063537294
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8927004100795322846}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aaa1543a357928f4a9b5c26de87ed815, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: be.elab.nescontrollerudp.Runtime::Eloi.NesUtility.NesMono_InputButton
+  m_inputAction: {fileID: 0}
+  m_onChanged:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 8473142847946946761}
+        m_TargetAssemblyTypeName: Eloi.NesUtility.NesMono_NesWithCode, be.elab.nescontrollerudp.Runtime
+        m_MethodName: PressOrReleaseMenuRight
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  m_onDown:
+    m_PersistentCalls:
+      m_Calls: []
+  m_onUp:
+    m_PersistentCalls:
+      m_Calls: []
+  m_isPressed: 0
 --- !u!1 &8995767804920240196
 GameObject:
   m_ObjectHideFlags: 0
@@ -2237,6 +2930,7 @@ Transform:
   m_Children:
   - {fileID: 2620223867338522955}
   - {fileID: 8359163039143913882}
+  - {fileID: 1481272287939050696}
   m_Father: {fileID: 6924106206365610820}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &8473142847946946761
@@ -2289,6 +2983,73 @@ MonoBehaviour:
   m_intKeyMenuRight: 1308
   m_intKeyButtonA: 1300
   m_intKeyButtonB: 1301
+--- !u!1 &9085916455953070478
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7477024832913652848}
+  - component: {fileID: 3820260754964704461}
+  m_Layer: 0
+  m_Name: Key Menu Left
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7477024832913652848
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9085916455953070478}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1481272287939050696}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3820260754964704461
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9085916455953070478}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aaa1543a357928f4a9b5c26de87ed815, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: be.elab.nescontrollerudp.Runtime::Eloi.NesUtility.NesMono_InputButton
+  m_inputAction: {fileID: 0}
+  m_onChanged:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 8473142847946946761}
+        m_TargetAssemblyTypeName: Eloi.NesUtility.NesMono_NesWithCode, be.elab.nescontrollerudp.Runtime
+        m_MethodName: PressOrReleaseMenuLeft
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  m_onDown:
+    m_PersistentCalls:
+      m_Calls: []
+  m_onUp:
+    m_PersistentCalls:
+      m_Calls: []
+  m_isPressed: 0
 --- !u!1001 &46070478848375965
 PrefabInstance:
   m_ObjectHideFlags: 0
