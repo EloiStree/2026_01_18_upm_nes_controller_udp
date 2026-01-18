@@ -1,0 +1,29 @@
+{
+  "name": "be.elab.nescontrollerudp",
+  "version": "2026.1.18",
+  "displayName": "UDP NES Controller",
+  "description": "2D UI NES Controller to remote control a game with UDP and S2W",
+  "unity": "2019.1",
+  "unityRelease": "0b5",
+  "documentationUrl": "https://github.com/EloiStree/2026_01_18_upm_nes_controller_udp",
+  "changelogUrl": "https://github.com/EloiStree/2026_01_18_upm_nes_controller_udp/CHANGELOG.md",
+  "licensesUrl": "https://github.com/EloiStree/LICENSE",
+ "keywords": [
+        "Script",
+        "Tool",
+        "Productivity"
+    ],     
+ "samples": [
+    {
+      "displayName": "Demo Scene",
+      "description": "A sample scene that demonstrates the features of this package.",
+      "path": "Scene/Demo"
+    }
+  ],
+  "author": {
+    "name": "Eloi Stree",
+    "mail": "",
+    "url": "https://github.com/EloiStree/"
+  },  
+}
+
