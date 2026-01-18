@@ -6,8 +6,8 @@
   "unity": "2019.1",
   "unityRelease": "0b5",
   "documentationUrl": "https://github.com/EloiStree/2026_01_18_upm_nes_controller_udp",
-  "changelogUrl": "https://github.com/EloiStree/2026_01_18_upm_nes_controller_udp/CHANGELOG.md",
-  "licensesUrl": "https://github.com/EloiStree/LICENSE.md",
+  "changelogUrl": "https://github.com/EloiStree/2026_01_18_upm_nes_controller_udp/blob/main/CHANGELOG.md",
+  "licensesUrl": "https://github.com/EloiStree/License",
  "keywords": [
         "Script",
         "Tool",
@@ -24,6 +24,6 @@
     "name": "Eloi Stree",
     "mail": "",
     "url": "https://github.com/EloiStree/"
-  },  
+  }
 }
 
