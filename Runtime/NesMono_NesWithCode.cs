@@ -25,8 +25,6 @@ namespace Eloi.NesUtility
         public int m_intKeyButtonA = 1300;
         public int m_intKeyButtonB = 1301;
 
-
-
         #region GENERIC METHODS
         public void PressKey(int value)
         {
@@ -40,6 +38,14 @@ namespace Eloi.NesUtility
         {
             PressKey(key);
             ReleaseKey(key);
+        }
+
+        public void PressOrReleaseKey(int key, bool press)
+        {
+            if (press)
+                PressKey(key);
+            else
+                ReleaseKey(key);
         }
 
 
@@ -141,62 +147,23 @@ namespace Eloi.NesUtility
 
         #region PRESS RELEASE BOOL
 
-        public void PressOrReleaseButtonA(bool press)
-        {
-            if (press)
-                PressKey(m_intKeyButtonA);
-            else
-                ReleaseKey(m_intKeyButtonA);
-        }
+
+        public void PressOrReleaseButtonA(bool press)=>
+            PressOrReleaseKey(m_intKeyButtonA, press);
         public void PressOrReleaseButtonB(bool press)
-        {
-            if (press)
-                PressKey(m_intKeyButtonB);
-            else
-                ReleaseKey(m_intKeyButtonB);
-        }
+            => PressOrReleaseKey(m_intKeyButtonB, press);
         public void PressOrReleaseArrowUp(bool press)
-        {
-            if (press)
-                PressKey(m_intKeyArrowUp);
-            else
-                ReleaseKey(m_intKeyArrowUp);
-        }
+            => PressOrReleaseKey(m_intKeyArrowUp, press);
         public void PressOrReleaseArrowDown(bool press)
-        {
-            if (press)
-                PressKey(m_intKeyArrowDown);
-            else
-                ReleaseKey(m_intKeyArrowDown);
-        }
+            => PressOrReleaseKey(m_intKeyArrowDown, press);
         public void PressOrReleaseArrowLeft(bool press)
-        {
-            if (press)
-                PressKey(m_intKeyArrowLeft);
-            else
-                ReleaseKey(m_intKeyArrowLeft);
-        }
+            => PressOrReleaseKey(m_intKeyArrowLeft, press);
         public void PressOrReleaseArrowRight(bool press)
-        {
-            if (press)
-                PressKey(m_intKeyArrowRight);
-            else
-                ReleaseKey(m_intKeyArrowRight);
-        }
+            => PressOrReleaseKey(m_intKeyArrowRight, press);
         public void PressOrReleaseMenuLeft(bool press)
-        {
-            if (press)
-                PressKey(m_intKeyMenuLeft);
-            else
-                ReleaseKey(m_intKeyMenuLeft);
-        }
+            => PressOrReleaseKey(m_intKeyMenuLeft, press);
         public void PressOrReleaseMenuRight(bool press)
-        {
-            if (press)
-                PressKey(m_intKeyMenuRight);
-            else
-                ReleaseKey(m_intKeyMenuRight);
-        }
+            => PressOrReleaseKey(m_intKeyMenuRight, press);
 
         #endregion
     }
