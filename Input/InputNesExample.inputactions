@@ -181,6 +181,17 @@
                 },
                 {
                     "name": "",
+                    "id": "8fd93129-9a4a-4f38-bbeb-5f872cb163f4",
+                    "path": "<HID::USB gamepad>/button2",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ButtonA",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "fd6b979a-7218-4904-9ffa-b147654bd760",
                     "path": "<Keyboard>/q",
                     "interactions": "",
@@ -280,6 +291,17 @@
                 },
                 {
                     "name": "",
+                    "id": "7e022a6b-d603-4594-9b87-8e38795edc9b",
+                    "path": "<Joystick>/trigger",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ButtonB",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "65606bc2-f759-47ad-9310-cd78464a3cac",
                     "path": "<Keyboard>/z",
                     "interactions": "",
@@ -324,6 +346,17 @@
                 },
                 {
                     "name": "",
+                    "id": "30e65ed9-07de-497c-a499-53e2978886a3",
+                    "path": "<HID::USB gamepad>/button9",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MenuLeft",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "3f3894bb-56a9-4797-b9da-1154db64dea5",
                     "path": "<Keyboard>/c",
                     "interactions": "",
@@ -359,6 +392,17 @@
                     "name": "",
                     "id": "bf83d392-c8a4-4747-bc94-6e767c326183",
                     "path": "<Mouse>/rightButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MenuRight",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "851d5b5f-0293-4a28-9f81-93e0e6ca7d72",
+                    "path": "<HID::USB gamepad>/button10",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -434,6 +478,17 @@
                 },
                 {
                     "name": "",
+                    "id": "33b7ed71-51a0-4bea-b930-1dd622b32f6c",
+                    "path": "<Joystick>/stick/left",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ArrowLeft",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "786dd549-e966-4b2b-b34b-c72b8ed09bbc",
                     "path": "<Keyboard>/upArrow",
                     "interactions": "",
@@ -500,6 +555,17 @@
                 },
                 {
                     "name": "",
+                    "id": "e8300263-2f68-465e-b4ed-9406d487c544",
+                    "path": "<Joystick>/stick/up",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ArrowUp",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "e75da259-5b4a-43e0-b8a3-48a607b4af9e",
                     "path": "<Keyboard>/rightArrow",
                     "interactions": "",
@@ -557,6 +623,17 @@
                     "name": "",
                     "id": "8e78dd16-2880-4e5c-bdde-0929fbcbe758",
                     "path": "<Gamepad>/rightStick/right",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ArrowRight",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "6a3b71dd-b03c-43cc-843e-7d90b6008bcf",
+                    "path": "<Joystick>/stick/right",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -634,6 +711,17 @@
                     "name": "",
                     "id": "db54f347-a177-4127-bbf7-dc940c98f43d",
                     "path": "<Gamepad>/rightStick/down",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ArrowDown",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "ac8ad2d8-03d0-4df8-8ff1-be367d0926dd",
+                    "path": "<Joystick>/stick/down",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
