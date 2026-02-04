@@ -18,6 +18,13 @@ namespace Eloi.NesUtility
                 {
                     component.AddIntegerRequestListen(PushIntegerRequest);
                 }
+
+                NesMono_InputButtonToInteger [] inputButtons =
+                  parent.GetComponentsInChildren<NesMono_InputButtonToInteger>();
+                foreach (var component in inputButtons)
+                {
+                    component.AddListenerToIntegerRequest(PushIntegerRequest);
+                }
             }
         }
         public void OnDisable()
@@ -30,6 +37,12 @@ namespace Eloi.NesUtility
                 foreach (var component in upDownToIntegerComponents)
                 {
                     component.RemoveIntegerRequestListen(PushIntegerRequest);
+                }
+                NesMono_InputButtonToInteger[] inputButtons =
+                  parent.GetComponentsInChildren<NesMono_InputButtonToInteger>();
+                foreach (var component in inputButtons)
+                {
+                    component.RemoveListenerToIntegerRequest(PushIntegerRequest);
                 }
             }
         }

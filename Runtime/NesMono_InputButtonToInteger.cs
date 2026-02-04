@@ -1,16 +1,29 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.InputSystem;
 namespace Eloi.NesUtility
 {
-    public class NesMono_InputButton : MonoBehaviour
+    public class NesMono_InputButtonToInteger : MonoBehaviour
     {
         public InputActionReference m_inputAction;
-        public UnityEvent<bool> m_onChanged;
-        public UnityEvent m_onDown;
-        public UnityEvent m_onUp;
+        public UnityEvent<int> m_onIntegerRequested;
+        public int m_onDownInteger =1000;
+        public int m_onUpInteger=2000;
         public bool m_isPressed;
+
+        public void AddListenerToIntegerRequest(Action<int> integerListener) {
+
+            m_onIntegerRequested.AddListener(integerListener.Invoke);
+        }
+        public void RemoveListenerToIntegerRequest(Action<int> integerListener)
+        {
+
+            m_onIntegerRequested.RemoveListener(integerListener.Invoke);
+        }
+
         void OnEnable()
+
         {
             m_inputAction.action.Enable();
             m_inputAction.action.performed += ctx => Context(ctx);
@@ -33,14 +46,13 @@ namespace Eloi.NesUtility
             if (isPressed != m_isPressed)
             {
                 m_isPressed = isPressed;
-                m_onChanged.Invoke(isPressed);
                 if (m_isPressed)
                 {
-                    m_onDown.Invoke();
+                    m_onIntegerRequested.Invoke(m_onDownInteger);
                 }
                 else
                 {
-                    m_onUp.Invoke();
+                    m_onIntegerRequested.Invoke(m_onUpInteger);
                 }
             }
         }

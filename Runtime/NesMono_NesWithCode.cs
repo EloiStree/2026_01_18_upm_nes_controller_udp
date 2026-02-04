@@ -1,8 +1,8 @@
+
 using UnityEngine;
 using UnityEngine.Events;
 namespace Eloi.NesUtility
 {
-
     //Menu Left 1309 2309
     //Menu Right 1308 2308
     //Up Arrow 1331 2331
@@ -166,6 +166,27 @@ namespace Eloi.NesUtility
             => PressOrReleaseKey(m_intKeyMenuRight, press);
 
         #endregion
+
+
+     
+
+        public void SeveralClick(int key, int numberOfClick, int delayBetweenClicksMilliseconds, int pressDurationMilliseconds) {
+            int timeRelative = 0;
+
+            for (int i = 0; i < numberOfClick; i++) {
+                PressKeyInMilliseconds(key, timeRelative);
+                timeRelative += pressDurationMilliseconds;
+                ReleaseKeyInMilliseconds(key, timeRelative);
+                timeRelative += delayBetweenClicksMilliseconds;
+            }
+        }
+        public void DoubleClick(int key, int delayBetweenClicksMilliseconds, int pressDurationMilliseconds)
+          =>SeveralClick(key,2, delayBetweenClicksMilliseconds, pressDurationMilliseconds);
+
+        public void TripleClick(int key, int delayBetweenClicksMilliseconds, int pressDurationMilliseconds)
+          =>SeveralClick(key, 3, delayBetweenClicksMilliseconds, pressDurationMilliseconds);
+
+        
     }
 
 

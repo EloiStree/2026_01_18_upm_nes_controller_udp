@@ -78,6 +78,26 @@ public class XboxMono_XboxWithCode : MonoBehaviour
         PressKey(key);
         ReleaseKeyInMilliseconds(key, pressDurationMilliseconds);
     }
+
+
+    public void SeveralClick(int key, int numberOfClick, int delayBetweenClicksMilliseconds, int pressDurationMilliseconds)
+    {
+        int timeRelative = 0;
+
+        for (int i = 0; i < numberOfClick; i++)
+        {
+            PressKeyInMilliseconds(key, timeRelative);
+            timeRelative += pressDurationMilliseconds;
+            ReleaseKeyInMilliseconds(key, timeRelative);
+            timeRelative += delayBetweenClicksMilliseconds;
+        }
+    }
+    public void DoubleClick(int key, int delayBetweenClicksMilliseconds, int pressDurationMilliseconds)
+      => SeveralClick(key, 2, delayBetweenClicksMilliseconds, pressDurationMilliseconds);
+
+    public void TripleClick(int key, int delayBetweenClicksMilliseconds, int pressDurationMilliseconds)
+      => SeveralClick(key, 3, delayBetweenClicksMilliseconds, pressDurationMilliseconds);
+
     #endregion
 
     #region BUTTONS AND AXES VALUES
@@ -161,6 +181,7 @@ public class XboxMono_XboxWithCode : MonoBehaviour
     [SerializeField] private int m_rightStickHorizontalN25Percent = 1385;
     [SerializeField] private int m_rightStickVerticalP25Percent = 1386;
     [SerializeField] private int m_rightStickVerticalN25Percent = 1387;
+    
     [SerializeField] private int m_releaseAllTouch = 1390;
     [SerializeField] private int m_releaseAllTouchButMenu = 1391;
     [SerializeField] private int m_clearTimedCommand = 1398;

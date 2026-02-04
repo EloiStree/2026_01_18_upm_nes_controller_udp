@@ -1,9 +1,7 @@
 using System;
-using UnityEditor.Events;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.EventSystems;
-using System.Collections.Generic;
 namespace Eloi.NesUtility
 {
     public class NesMono_OnUpDownToUnityEvent : MonoBehaviour,
