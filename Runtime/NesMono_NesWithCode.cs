@@ -16,14 +16,14 @@ namespace Eloi.NesUtility
     {
         public UnityEvent<int> m_onIntegerAction;
         public UnityEvent<int, int> m_onIntegerActionWithDelayInMilliseconds;
-        public int m_intKeyArrowUp = 1331;
-        public int m_intKeyArrowRight = 1333;
-        public int m_intKeyArrowLeft = 1337;
-        public int m_intKeyArrowDown = 1335;
+        public int m_intKeyArrowUp = 1311;
+        public int m_intKeyArrowRight = 1313;
+        public int m_intKeyArrowLeft = 1317;
+        public int m_intKeyArrowDown = 1315;
         public int m_intKeyMenuLeft = 1309;
         public int m_intKeyMenuRight = 1308;
         public int m_intKeyButtonA = 1300;
-        public int m_intKeyButtonB = 1301;
+        public int m_intKeyButtonB = 1302;
 
         #region GENERIC METHODS
         public void PressKey(int value)

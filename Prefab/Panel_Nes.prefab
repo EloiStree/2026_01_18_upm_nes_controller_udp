@@ -92,7 +92,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 13.75
+  m_fontSize: 8
   m_fontSizeBase: 8
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -103,7 +103,6 @@ MonoBehaviour:
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
-  m_characterHorizontalScale: 1
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -437,7 +436,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 35.2
+  m_fontSize: 26.9
   m_fontSizeBase: 8
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -448,7 +447,6 @@ MonoBehaviour:
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
-  m_characterHorizontalScale: 1
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -1000,7 +998,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 13.75
+  m_fontSize: 8
   m_fontSizeBase: 8
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -1011,7 +1009,6 @@ MonoBehaviour:
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
-  m_characterHorizontalScale: 1
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -1218,7 +1215,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 13.75
+  m_fontSize: 8
   m_fontSizeBase: 8
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -1229,7 +1226,6 @@ MonoBehaviour:
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
-  m_characterHorizontalScale: 1
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -1356,7 +1352,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 13.75
+  m_fontSize: 8
   m_fontSizeBase: 8
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -1367,7 +1363,6 @@ MonoBehaviour:
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
-  m_characterHorizontalScale: 1
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -1513,7 +1508,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 13.75
+  m_fontSize: 8
   m_fontSizeBase: 8
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -1524,7 +1519,6 @@ MonoBehaviour:
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
-  m_characterHorizontalScale: 1
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -2094,7 +2088,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 13.75
+  m_fontSize: 8
   m_fontSizeBase: 8
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -2105,7 +2099,6 @@ MonoBehaviour:
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
-  m_characterHorizontalScale: 1
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -2975,14 +2968,14 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  m_intKeyArrowUp: 1331
-  m_intKeyArrowRight: 1333
-  m_intKeyArrowLeft: 1337
-  m_intKeyArrowDown: 1335
+  m_intKeyArrowUp: 1311
+  m_intKeyArrowRight: 1313
+  m_intKeyArrowLeft: 1317
+  m_intKeyArrowDown: 1315
   m_intKeyMenuLeft: 1309
   m_intKeyMenuRight: 1308
   m_intKeyButtonA: 1300
-  m_intKeyButtonB: 1301
+  m_intKeyButtonB: 1302
 --- !u!1 &9085916455953070478
 GameObject:
   m_ObjectHideFlags: 0
@@ -3148,11 +3141,11 @@ PrefabInstance:
       objectReference: {fileID: 3132178515827569540}
     - target: {fileID: 5259912925938360899, guid: 7f40161faf378ce4d928de9c56a25af4, type: 3}
       propertyPath: m_onValueUp
-      value: 2331
+      value: 2311
       objectReference: {fileID: 0}
     - target: {fileID: 5259912925938360899, guid: 7f40161faf378ce4d928de9c56a25af4, type: 3}
       propertyPath: m_onValueDown
-      value: 1331
+      value: 1311
       objectReference: {fileID: 0}
     - target: {fileID: 5259912925938360899, guid: 7f40161faf378ce4d928de9c56a25af4, type: 3}
       propertyPath: m_onIntegerRequested.m_PersistentCalls.m_Calls.Array.size
@@ -3290,11 +3283,11 @@ PrefabInstance:
       objectReference: {fileID: 3132178515827569540}
     - target: {fileID: 5259912925938360899, guid: 7f40161faf378ce4d928de9c56a25af4, type: 3}
       propertyPath: m_onValueUp
-      value: 2335
+      value: 2315
       objectReference: {fileID: 0}
     - target: {fileID: 5259912925938360899, guid: 7f40161faf378ce4d928de9c56a25af4, type: 3}
       propertyPath: m_onValueDown
-      value: 1335
+      value: 1315
       objectReference: {fileID: 0}
     - target: {fileID: 5259912925938360899, guid: 7f40161faf378ce4d928de9c56a25af4, type: 3}
       propertyPath: m_onIntegerRequested.m_PersistentCalls.m_Calls.Array.size
@@ -3432,11 +3425,11 @@ PrefabInstance:
       objectReference: {fileID: 3132178515827569540}
     - target: {fileID: 5259912925938360899, guid: 7f40161faf378ce4d928de9c56a25af4, type: 3}
       propertyPath: m_onValueUp
-      value: 2333
+      value: 2313
       objectReference: {fileID: 0}
     - target: {fileID: 5259912925938360899, guid: 7f40161faf378ce4d928de9c56a25af4, type: 3}
       propertyPath: m_onValueDown
-      value: 1333
+      value: 1313
       objectReference: {fileID: 0}
     - target: {fileID: 5259912925938360899, guid: 7f40161faf378ce4d928de9c56a25af4, type: 3}
       propertyPath: m_onIntegerRequested.m_PersistentCalls.m_Calls.Array.size
@@ -3574,11 +3567,11 @@ PrefabInstance:
       objectReference: {fileID: 3132178515827569540}
     - target: {fileID: 5259912925938360899, guid: 7f40161faf378ce4d928de9c56a25af4, type: 3}
       propertyPath: m_onValueUp
-      value: 2301
+      value: 2302
       objectReference: {fileID: 0}
     - target: {fileID: 5259912925938360899, guid: 7f40161faf378ce4d928de9c56a25af4, type: 3}
       propertyPath: m_onValueDown
-      value: 1301
+      value: 1302
       objectReference: {fileID: 0}
     - target: {fileID: 5259912925938360899, guid: 7f40161faf378ce4d928de9c56a25af4, type: 3}
       propertyPath: m_onIntegerRequested.m_PersistentCalls.m_Calls.Array.size
@@ -3716,11 +3709,11 @@ PrefabInstance:
       objectReference: {fileID: 3132178515827569540}
     - target: {fileID: 5259912925938360899, guid: 7f40161faf378ce4d928de9c56a25af4, type: 3}
       propertyPath: m_onValueUp
-      value: 2337
+      value: 2317
       objectReference: {fileID: 0}
     - target: {fileID: 5259912925938360899, guid: 7f40161faf378ce4d928de9c56a25af4, type: 3}
       propertyPath: m_onValueDown
-      value: 1337
+      value: 1317
       objectReference: {fileID: 0}
     - target: {fileID: 5259912925938360899, guid: 7f40161faf378ce4d928de9c56a25af4, type: 3}
       propertyPath: m_onIntegerRequested.m_PersistentCalls.m_Calls.Array.size
